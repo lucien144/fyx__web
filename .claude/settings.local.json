@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nrefactor: extract App.vue sections into separate components\n\nSplit monolithic App.vue into reusable Vue components:\n- HeaderSection (navigation + hero)\n- ScreenshotsSection\n- FeaturesSection\n- PremiumSection\n- DownloadSection\n- FooterSection\n\nAll components use Composition API with <script setup>.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
