@@ -11,7 +11,7 @@
           <span class="text-2xl font-bold">Fyx</span>
         </div>
         <a href="#premium" class="bg-white text-[#196378] px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition">
-          Premium
+          Podpořte vývoj
         </a>
       </div>
     </nav>

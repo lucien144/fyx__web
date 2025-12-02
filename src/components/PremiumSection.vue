@@ -1,11 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
   <section id="premium" class="bg-[#f0f4f5] py-20">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#282828]">
-          Free vs Premium
+          Proč podpořit vývoj?
         </h2>
         <p class="text-xl text-[#8E8E8E]">
           Základní verze je zdarma. Premium podporuje vývoj aplikace.
@@ -13,6 +14,10 @@
       </div>
 
       <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center text-[#282828]">
+          Výhody pro podporovatele
+        </h2>
+
         <div class="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <!-- Table Header -->
           <div class="grid grid-cols-3 bg-gradient-to-r from-[#1AD592] to-[#196378] text-white">
@@ -20,17 +25,15 @@
               <h3 class="text-2xl font-bold">Funkce</h3>
             </div>
             <div class="p-6 border-r border-white/20 text-center">
-              <h3 class="text-2xl font-bold mb-2">Free</h3>
-              <p class="text-3xl font-bold mb-1">0 Kč</p>
-              <p class="text-sm text-white/70">Navždy zdarma</p>
+              <p class="text-3xl font-bold mb-1">0,-</p>
+              <p class="text-sm text-white/70">Pro všechny</p>
             </div>
             <div class="p-6 text-center relative">
               <div class="absolute top-2 right-2 bg-[#FFC107] text-[#282828] px-3 py-1 rounded-full text-xs font-bold">
                 PODPORA
               </div>
-              <h3 class="text-2xl font-bold mb-2">Premium</h3>
-              <p class="text-3xl font-bold mb-1">Custom</p>
-              <p class="text-sm text-white/70">Jakákoli částka</p>
+              <p class="text-3xl font-bold mb-1">od 700,- / rok</p>
+              <p class="text-sm text-white/70">Pro podporovatele</p>
             </div>
           </div>
 
