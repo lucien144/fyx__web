@@ -4,10 +4,10 @@
   <section class="container mx-auto px-4 py-20">
     <div class="text-center mb-16">
       <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#282828]">
-        Funkce, které oceníte
+        Něco navíc...
       </h2>
       <p class="text-xl text-[#8E8E8E]">
-        Vše, co potřebujete pro pohodlné používání Nyxu
+        Funkce extra pro pohodlné scrollování Nyxem...
       </p>
     </div>
 
@@ -19,7 +19,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold mb-2 text-[#282828]">Push notifikace</h3>
-        <p class="text-[#8E8E8E]">Nechte si posílat notifikace o nových příspěvcích přímo do telefonu</p>
+        <p class="text-[#8E8E8E]">Nechte si posílat notifikace o nových příspěvcích a mailech přímo do telefonu.</p>
       </div>
 
       <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -28,8 +28,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-semibold mb-2 text-[#282828]">Dark mode & Skiny</h3>
-        <p class="text-[#8E8E8E]">Dark mode, Forest4, Graymatter a další oblíbené skiny</p>
+        <h3 class="text-xl font-semibold mb-2 text-[#282828]">Dark mode & skiny</h3>
+        <p class="text-[#8E8E8E]">Dark mode, Forest4, Graymatter a další oblíbené skiny.</p>
       </div>
 
       <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -39,7 +39,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold mb-2 text-[#282828]">Rychlá navigace</h3>
-        <p class="text-[#8E8E8E]">Odskok na první nepřečtený příspěvek a kompaktní mód</p>
+        <p class="text-[#8E8E8E]">Odskok na první nepřečtený příspěvek, filtr přečtených, historie.</p>
       </div>
 
       <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -49,7 +49,7 @@
           </svg>
         </div>
         <h3 class="text-xl font-semibold mb-2 text-[#282828]">Multimédia</h3>
-        <p class="text-[#8E8E8E]">Galerie více obrázků, přehrávání videí přímo v aplikaci</p>
+        <p class="text-[#8E8E8E]">Galerie více obrázků, přehrávání videí přímo v aplikaci, nahrávání obrázků.</p>
       </div>
 
       <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -58,8 +58,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-semibold mb-2 text-[#282828]">Ankety & Spoilery</h3>
-        <p class="text-[#8E8E8E]">Plná podpora anket a spoilerů přímo v aplikaci</p>
+        <h3 class="text-xl font-semibold mb-2 text-[#282828]">Ankety, spoilery, markdown</h3>
+        <p class="text-[#8E8E8E]">Plná podpora anket a spoilerů přímo v aplikaci. Možnost psát také Markdownem.</p>
       </div>
 
       <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -68,8 +68,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-semibold mb-2 text-[#282828]">iPad podpora</h3>
-        <p class="text-[#8E8E8E]">Optimalizováno pro iPad s podporou landscape režimu</p>
+        <h3 class="text-xl font-semibold mb-2 text-[#282828]">Podpora tabletů</h3>
+        <p class="text-[#8E8E8E]">Optimalizováno pro tablety s podporou landscape režimu.</p>
       </div>
     </div>
   </section>
