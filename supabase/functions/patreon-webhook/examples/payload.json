@@ -1,0 +1,147 @@
+{
+  "data": {
+    "id": "d29e61b6-f73b-4662-955e-dade715cef83",
+    "type": "member",
+    "attributes": {
+      "note": "",
+      "email": "jw@example.com",
+      "full_name": "Jules Winnfield",
+      "is_gifted": false,
+      "is_follower": false,
+      "is_free_trial": false,
+      "patron_status": "active_patron",
+      "pledge_cadence": 1,
+      "last_charge_date": null,
+      "next_charge_date": "2025-04-01T07:00:00.000+00:00",
+      "last_charge_status": null,
+      "will_pay_amount_cents": 1337,
+      "lifetime_support_cents": 0,
+      "pledge_relationship_start": "2025-03-02T13:37:00.000+00:00",
+      "campaign_lifetime_support_cents": 0,
+      "currently_entitled_amount_cents": 1337
+    },
+    "relationships": {
+      "user": {
+        "data": {
+          "id": "108692085",
+          "type": "user"
+        },
+        "links": {
+          "related": "https://www.patreon.com/api/oauth2/v2/user/108692085"
+        }
+      },
+      "address": {
+        "data": null
+      },
+      "campaign": {
+        "data": {
+          "id": "11410294",
+          "type": "campaign"
+        },
+        "links": {
+          "related": "https://www.patreon.com/api/oauth2/v2/campaigns/11410294"
+        }
+      },
+      "currently_entitled_tiers": {
+        "data": [
+          {
+            "id": "196241737",
+            "type": "tier"
+          }
+        ]
+      }
+    }
+  },
+  "links": {
+    "self": "https://www.patreon.com/api/oauth2/v2/members/d29e61b6-f73b-4662-955e-dade715cef83"
+  },
+  "included": [
+    {
+      "id": "11410294",
+      "type": "campaign",
+      "attributes": {
+        "url": "https://www.patreon.com/thebriefcase",
+        "vanity": "thebriefcase",
+        "has_rss": false,
+        "is_nsfw": false,
+        "summary": null,
+        "image_url": "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/69073700/0267c2da7994410084f34411b9ce619c/eyJ3IjoxOTIwLCJ3ZSI6MX0%3D/1?token-time=1743724800&token-hash=gaXo-j34utqldsEeggT1K66nQXiJvMgttWq1PfZt3kE%3D",
+        "one_liner": "",
+        "created_at": "2025-03-02T13:37:00.000+00:00",
+        "is_monthly": true,
+        "pledge_url": "/checkout/thebriefcase",
+        "thanks_msg": "",
+        "patron_count": 0,
+        "pay_per_name": "month",
+        "published_at": "2025-03-02T13:37:00.000+00:00",
+        "thanks_embed": "",
+        "creation_name": "",
+        "main_video_url": null,
+        "rss_feed_title": null,
+        "image_small_url": "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/69073700/0267c2da7994410084f34411b9ce619c/eyJ3IjoxOTIwLCJ3ZSI6MX0%3D/1?token-time=1743724800&token-hash=gaXo-j34utqldsEeggT1K66nQXiJvMgttWq1PfZt3kE%3D",
+        "rss_artwork_url": null,
+        "main_video_embed": null,
+        "thanks_video_url": "",
+        "discord_server_id": null,
+        "google_analytics_id": null,
+        "has_sent_rss_notify": false,
+        "is_charged_immediately": false
+      }
+    },
+    {
+      "id": "108692085",
+      "type": "user",
+      "attributes": {
+        "url": "https://www.patreon.com/saywhat",
+        "about": "About!",
+        "vanity": "saywhat",
+        "created": "2025-03-02T13:37:00.000+00:00",
+        "full_name": "Jules Winnfield",
+        "image_url": "https://c8.patreon.com/3/200/108692085",
+        "last_name": "Winnfield",
+        "thumb_url": "https://c8.patreon.com/3/200/108692085",
+        "first_name": "Jules",
+        "is_creator": false,
+        "like_count": 0,
+        "hide_pledges": false,
+        "social_connections": {
+          "vimeo": null,
+          "google": null,
+          "reddit": null,
+          "tiktok": null,
+          "twitch": null,
+          "discord": null,
+          "spotify": null,
+          "twitter": null,
+          "youtube": null,
+          "facebook": null,
+          "twitter2": null,
+          "instagram": null,
+          "spotify_open_access": null
+        }
+      }
+    },
+    {
+      "id": "196241737",
+      "type": "tier",
+      "attributes": {
+        "url": "/checkout/thebriefcase?rid=196241737",
+        "title": "Elite Tier",
+        "edited_at": "2025-03-02T13:37:00.000+00:00",
+        "image_url": null,
+        "published": true,
+        "remaining": null,
+        "created_at": "2025-03-02T13:37:00.000+00:00",
+        "post_count": 0,
+        "user_limit": null,
+        "description": "Tier for Top Patrons",
+        "amount_cents": 1337,
+        "patron_count": 0,
+        "published_at": "2025-03-02T13:37:00.000+00:00",
+        "unpublished_at": null,
+        "discord_role_ids": null,
+        "requires_shipping": false
+      }
+    }
+  ]
+}
