@@ -180,6 +180,15 @@ export class PatreonWebhookService {
       return { success: false, error: 'Missing patreon_id in payload' }
     }
 
+    // Check if amount is at least 300 cents (3 USD)
+    const amount = this.extractAmount(payload)
+    if (amount === undefined || amount < 300) {
+      console.log(
+        `Skipping subscriber upsert for patreon_id ${patreonId}: amount ${amount} is below 300 cents threshold`
+      )
+      return { success: true, error: 'Amount below threshold (300 cents)' }
+    }
+
     // Try to find existing subscriber by patreon_id
     const existingSubscriber =
       await this.getExistingSubscriberByPatreonId(patreonId)
