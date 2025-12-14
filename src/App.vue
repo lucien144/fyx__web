@@ -10,8 +10,8 @@ import FooterSection from '@/components/FooterSection.vue'
 <template>
   <HeaderSection />
   <ScreenshotsSection />
-  <FeaturesSection />
-  <PremiumSection />
-  <DownloadSection />
-  <FooterSection />
-</template>Push t
+<!--  <FeaturesSection />-->
+<!--  <PremiumSection />-->
+<!--  <DownloadSection />-->
+<!--  <FooterSection />-->
+</template>
