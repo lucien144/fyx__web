@@ -5,6 +5,19 @@
 	<link rel="icon" href="/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fyx - Neoficiální klient pro Nyx.cz</title>
+
+	<!-- FOUC Prevention -->
+	<script>
+		(function() {
+			const theme = localStorage.getItem('fyx-theme-preference') || 'system';
+			const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+			const resolvedTheme = theme === 'system' ? systemTheme : theme;
+			if (resolvedTheme === 'dark') {
+				document.documentElement.classList.add('dark');
+			}
+		})();
+	</script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -17,8 +30,19 @@
             background: linear-gradient(135deg, #1AD592 0%, #196378 100%);
         }
 
+        .dark .gradient-bg {
+            background: linear-gradient(135deg, #0d2d36 0%, #1a1a1a 100%);
+        }
+
         .gradient-text {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .dark .gradient-text {
+            background: linear-gradient(135deg, #8b9aff 0%, #9d7bc4 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -28,5 +52,6 @@
 <body>
 <div id="app"></div>
 <script type="module" src="/src/main.ts"></script>
+<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 </body>
 </html>
