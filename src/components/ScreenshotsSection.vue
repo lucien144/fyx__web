@@ -12,7 +12,7 @@ function onSwiper(_swiper) {
 </script>
 
 <template>
-  <section class="py-20 bg-white dark:bg-[#1a1a1a]">
+  <section class="py-20 px-4 dark:bg-[#1a1a1a]">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#282828] dark:text-white">
@@ -91,13 +91,13 @@ function onSwiper(_swiper) {
         <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#282828] dark:text-white mb-16">
           Jak podpořit?
         </h2>
-        <div class="flex flex-col lg:flex-row lg:justify-center gap-y-10 lg:gap-x-10">
-          <div class="w-full lg:w-1/3">
+        <div class="flex flex-col lg:flex-row lg:justify-center lg:items-center gap-y-10 lg:gap-x-10">
+          <div class="order-1 lg:order-2 w-full lg:w-1/3">
             <h2
-              class="text-3xl md:text-4xl font-bold mb-4 text-center text-[#282828] dark:text-white">
+              class="text-4xl md:text-5xl font-bold mb-4 text-center text-[#282828] dark:text-white">
               Patreon
             </h2>
-            <div class="flex flex-col items-center gap-y-4">
+            <div class="text-lg flex flex-col items-center gap-y-4">
               <p class="dark:text-gray-300">Preferované, po měsících, automatická obnova.</p>
               <a
                 href="https://www.patreon.com/bePatron?u=27695214"
@@ -115,17 +115,17 @@ function onSwiper(_swiper) {
                 </svg>
                 Stát se patronem
               </a>
-              <p class="italic text-xs dark:text-gray-400">Do poznámky dejte svoje NYX ID. Do
+              <p class="italic text-sm dark:text-gray-400">Do poznámky dejte svoje NYX ID. Do
                 několika hodin vám zapnu premim funkce. Každá další platba bude již spárovaná
                 automaticky a premium automaticky obnoveno.</p>
             </div>
           </div>
-          <div class="w-full lg:w-1/3">
+          <div class="order-2 lg:order-1 w-full lg:w-1/3">
             <h2
-              class="text-3xl md:text-4xl font-bold mb-4 text-center text-[#282828] dark:text-white">
+              class="text-2xl md:text-3xl font-bold mb-4 text-center text-[#282828] dark:text-white">
               Revolut
             </h2>
-            <div class="flex flex-col items-center gap-y-4">
+            <div class="flex flex-col items-center gap-y-4 text-sm">
               <p class="dark:text-gray-300">Minimálně na 6/12 měsíců, manuální zapnutí.</p>
               <div class="flex gap-x-2">
                 <a href="https://revolut.me/lucien144?currency=CZK&amount=42000&note=VASE NYX ID"
@@ -133,11 +133,11 @@ function onSwiper(_swiper) {
                    class="inline-flex items-center bg-black dark:bg-white dark:text-black rounded-lg text-white p-3 hover:bg-gray-800 dark:hover:bg-gray-100 transition">
                   <svg class="w-[24px] h-[24px]" xmlns="http://www.w3.org/2000/svg"
                        xml:space="preserve" width="800" height="800" viewBox="0 0 800 800"
-                       style="enable-background:new 0 0 800 800"><path d="M0 0h800v800H0z" style="fill:#000"/>
-                    <path d="M209.051 262.097h101.445v410.21H209.051z" fill="white"/>
+                       style="enable-background:new 0 0 800 800"><path d="M0 0h800v800H0z" class="dark:fill-white"/>
+                    <path d="M209.051 262.097h101.445v410.21H209.051z" fill="currentColor"/>
                     <path
                       d="M628.623 285.554c0-87.043-70.882-157.86-158.011-157.86H209.051v87.603h249.125c39.43 0 72.093 30.978 72.814 69.051.361 19.064-6.794 37.056-20.146 50.66-13.357 13.61-31.204 21.109-50.251 21.109h-97.046c-3.446 0-6.25 2.8-6.25 6.245v77.859a6.21 6.21 0 0 0 1.179 3.656l164.655 228.43h120.53L478.623 443.253c83.113-4.173 150-74.005 150-157.699z"
-                      fill="white"/></svg>
+                      fill="currentColor"/></svg>
                   420,-
                 </a>
                 <a href="https://revolut.me/lucien144?currency=CZK&amount=84000&note=VASE NYX ID"
@@ -145,11 +145,11 @@ function onSwiper(_swiper) {
                    class="inline-flex items-center bg-black dark:bg-white dark:text-black rounded-lg text-white p-3 hover:bg-gray-800 dark:hover:bg-gray-100 transition">
                   <svg class="w-[24px] h-[24px]" xmlns="http://www.w3.org/2000/svg"
                        xml:space="preserve" width="800" height="800" viewBox="0 0 800 800"
-                       style="enable-background:new 0 0 800 800"><path d="M0 0h800v800H0z" style="fill:#000"/>
-                    <path d="M209.051 262.097h101.445v410.21H209.051z" fill="white"/>
+                       style="enable-background:new 0 0 800 800"><path d="M0 0h800v800H0z" class="dark:fill-white"/>
+                    <path d="M209.051 262.097h101.445v410.21H209.051z" fill="currentColor"/>
                     <path
                       d="M628.623 285.554c0-87.043-70.882-157.86-158.011-157.86H209.051v87.603h249.125c39.43 0 72.093 30.978 72.814 69.051.361 19.064-6.794 37.056-20.146 50.66-13.357 13.61-31.204 21.109-50.251 21.109h-97.046c-3.446 0-6.25 2.8-6.25 6.245v77.859a6.21 6.21 0 0 0 1.179 3.656l164.655 228.43h120.53L478.623 443.253c83.113-4.173 150-74.005 150-157.699z"
-                      fill="white"/></svg>
+                      fill="currentColor"/></svg>
                   840,-
                 </a>
               </div>
@@ -157,13 +157,13 @@ function onSwiper(_swiper) {
                 spárování plateb většinou bývá do pár hodin.</p>
             </div>
           </div>
-          <div class="w-full lg:w-1/3">
+          <div class="order-3 w-full lg:w-1/3">
             <h2
-              class="text-3xl md:text-4xl font-bold mb-4 text-center text-[#282828] dark:text-white">
+              class="text-2xl md:text-3xl font-bold mb-4 text-center text-[#282828] dark:text-white">
               Bankovní převod
             </h2>
             <div class="flex flex-col items-center gap-y-4">
-              <p class="dark:text-gray-300">Minimálně na 6/12 měsíců, manuální zapnutí.</p>
+              <p class="text-sm dark:text-gray-300">Minimálně na 6/12 měsíců, manuální zapnutí.</p>
               <div class="flex gap-x-2">
                 <a href="#"
                    class="inline-flex items-center bg-black dark:bg-white dark:text-black rounded-lg text-white p-3 hover:bg-gray-800 dark:hover:bg-gray-100 transition">
@@ -204,6 +204,25 @@ function onSwiper(_swiper) {
                 spárování plateb většinou bývá do pár hodin.</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center mt-24">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#282828] dark:text-white mb-16">
+          Proč Fyx podpořit?
+        </h2>
+
+        <div>
+          <ol class="list-decimal dark:text-white">
+            <li>Protože mě to motivuje.</li>
+            <li>Získáte funkce navíc.</li>
+            <li>Máte větší šanci, že se budu vašim bugům/požadavkům věnovat.</li>
+            <li>Zaplatíte mi poplatky na provoz.</li>
+            <li>Zvýšíte šanci, že Fyx neumře.</li>
+            <li>Častější verze a opravy.</li>
+            <li>Dostanete malý dárek (když mi pošlete adresu)</li>
+            <li>Zaplatíte mi kafe. A bez kafe nefunguju a vrčim na děti. Nechcete přece, abych vrčel na děti.</li>
+          </ol>
         </div>
       </div>
     </div>
