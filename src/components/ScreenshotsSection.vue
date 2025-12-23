@@ -165,7 +165,7 @@ function onSwiper(_swiper) {
             <div class="flex flex-col items-center gap-y-4">
               <p class="text-sm dark:text-gray-300">Minimálně na 6/12 měsíců, manuální zapnutí.</p>
               <div class="flex gap-x-2">
-                <a href="/src/assets/qr-420.jpg" target="_blank"
+                <a href="/qr-420.jpg" target="_blank"
                    class="inline-flex items-center bg-black dark:bg-white dark:text-black rounded-lg text-white p-3 hover:bg-gray-800 dark:hover:bg-gray-100 transition">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -182,7 +182,7 @@ function onSwiper(_swiper) {
                   </svg>
                   420,-
                 </a>
-                <a href="/src/assets/qr-840.jpg" target="_blank"
+                <a href="/qr-840.jpg" target="_blank"
                    class="inline-flex items-center bg-black dark:bg-white dark:text-black rounded-lg text-white p-3 hover:bg-gray-800 dark:hover:bg-gray-100 transition">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
